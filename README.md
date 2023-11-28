@@ -122,7 +122,7 @@ So the recommended approach is to do something like create a \~/snowpark directo
 
 ## 0.3 Snowpark Basics Setup
 
-The instructions and code for this HoL can be found at: https://github.com/snowflakecorp/techup-fy24snowday-snowpark. Clone this repository to your chosen location.
+The instructions and code for this HoL can be found at: [https://github.com/snowflakecorp/techup-fy24snowday-snowpark](https://github.com/durandkwok-snowflake/DK_Snowday_Snowpark_HOL). Clone this repository to your chosen location.
 
 Navigate to the snowparkbasics folder
 
