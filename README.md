@@ -44,8 +44,7 @@ You will get more out of this lab if you have completed the DataCamp courses Int
 ## 0.1 Snowflake Setup
 
 You are likely to have an existing Tasty Bytes V2 setup in a demo account.  If not, or you want to reset, run the SQL script at:
-https://github.com/Snowflake-Labs/sf-samples/blob/main/samples/tasty_bytes/tb_introduction.sql
-
+https://github.com/durandkwok-snowflake/DK_Snowday_Snowpark_HOL/snowparkbasics/lab/setup_step_2_snowflake_account_tb_v2.sql
 
 > **Note**: This HoL leaves a lot of additional tables in the RAW_POS schema. It is probably best to rerun the Tasty Bytes setup again afterwards to get a clean Tasty Bytes.
 
