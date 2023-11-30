@@ -286,44 +286,7 @@ Create another table `TWOTRUCKHEADER` by copying data from `ORDER_HEADER` with `
 
 Finally check the update worked e.g. count `TWOTRUCKHEADER` rows grouped by `TRUCK_ID` and `SHIFT_ID`.
 
-# PART 4: STORED PROCEDURES AND FUNCTIONS
 
-## 4.1 Setup
-
-Standard Setup section plus creation of stages `PROCSTAGE` and `UDFSTAGE`.
-
-## 4.2 Using Stored Procedures
-
-This section describes the various reasons for using stored procedures in Snowpark, and then demonstrates a practical example of turning a solution to Part 2 into a parameterised procedure.
-
-## 4.3 Using Functions
-
-This section explores using built-in functions or existing SQL UDFs from Snowpark.
-
-## 4.4 Creating Functions
-
-In this section we build a Python UDF from a SQL environment, then from Snowpark, then using the `@udf` secorator.  Finally we make our UDF vectorized.
-
-## 4.X Your Turn
-
-You realize that the line in the solution to part 1
-
-```python
-F.concat(
-    F.to_char(F.date_part("year",'ORDER_TS')),
-    F.to_char(F.date_part("month",'ORDER_TS'), 'FM09')
-)
-```
-
-could also be written generically in Python as:
-
-```python
-return str(ts.year) + str(ts.month) where ts is the datetime type.
-```
-
-Create and register a Python UDF `char_month` to implement this and reproduce the answer to Part 1 using this. Start by separately defining a function and registering it. Then move on to decorators and vectorized UDFs if you wish...
-
-> **Hint**: you will need to `import datetime from datetime`
 
 # PART 99: WHAT NEXT?
 
