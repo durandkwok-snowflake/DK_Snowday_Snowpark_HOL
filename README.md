@@ -17,7 +17,7 @@
 
 This lab will introduce and explain the most common elements in core Snowpark data use and transformation. The focus will be the Dataframe API but will also contain an introduction to simple Stored Procedures and UDFs. The aim is to build your understanding and confidence with Snowpark for Python, so that you can engage with demos and quickstarts involving Snowpark. It is aimed at those with limited previous Python and Snowpark experience.
 
-The lab uses standard data from the Tasty bytes V2 setup, but is not designed as an end-to-end scenario. Instead the data, primarily from the RAW\_POS schema, is used in simple examples and exercises.
+The lab uses standard data from the Tasty bytes setup, but is not designed as an end-to-end scenario. Instead the data, primarily from the RAW\_POS schema, is used in simple examples and exercises.
 
 This lab shamelessly uses ideas from code and examples developed by the frostbyte team, FCTOs, Developer Advocates and other SEs. A big thank-you to all of you!
 
